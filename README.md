@@ -4,3 +4,4 @@
 
     - Spotify API
     - ReactJS
+    - NextJS

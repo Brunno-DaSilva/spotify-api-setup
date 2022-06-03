@@ -17,14 +17,17 @@ const App = () => {
   ];
 
   const [token, setToken] = useState("");
+
   const [genres, setGenres] = useState({
     selectedGenre: "",
     listOfGenresFromAPI: [],
   });
+
   const [playlist, setPlaylist] = useState({
     selectedPlaylist: "",
     listOfPlaylistFromAPI: [],
   });
+
   const [tracks, setTracks] = useState({
     selectedTrack: "",
     listOfTracksFromAPI: [],
